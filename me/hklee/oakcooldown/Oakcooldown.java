@@ -30,7 +30,6 @@ public final class Oakcooldown extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        if(getResource("LICENSE") == null || getResource("README.MD") == null) throw new RuntimeException("PLEASE CHECK COPYRIGHT");
         instance = this;
         saveDefaultConfig();
         configer = new Configer(getConfig());
