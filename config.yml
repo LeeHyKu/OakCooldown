@@ -17,6 +17,6 @@ time: 1000 #밀리초 단위
 need: 3
 
 cooltime: §6§l(!) §a<time>초§f후 설치하실 수 있습니다.
-shortage: §6§l(!) 나무를 설치하려면 §a<need>개의 동일한 나무§f가 더 필요합니다.
+shortage: §6§l(!) §f나무를 설치하려면 §a<need>개의 동일한 나무§f가 더 필요합니다.
 
 sound: BLOCK_NOTE_PLING
