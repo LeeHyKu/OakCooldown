@@ -40,7 +40,6 @@ public class Sailor implements Listener {
     public void onPlace(BlockPlaceEvent e) {
         Player p = e.getPlayer();
         if (e.getBlock().getType() != Material.LOG) return;
-        System.out.println(e.getBlock().getType());
         Configer c = getConfiger();
         UUID u = p.getUniqueId();
         if (!ignoreCool(p) && isCool(u)) {
